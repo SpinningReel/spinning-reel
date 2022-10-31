@@ -7950,7 +7950,7 @@
       },
       s = r.env("editor") ? ".w-editor-body" : "body",
       f = "header, " + s + " > .header, " + s + " > .w-nav:not([data-no-scroll])",
-      l = 'a[href="#"]',
+      l = 'a[routerLink="/home"]',
       d = 'a[href*="#"]:not(.w-tab-link):not(' + l + ")",
       p = document.createElement("style");
     p.appendChild(document.createTextNode('.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}'));
@@ -9352,12 +9352,12 @@ Webflow.require('ix2').init({
       },
       "mediaQueries": ["main"],
       "target": {
-        "selector": ".home-accomodation_item-wrapper",
+        "selector": ".home-accommodation_item-wrapper",
         "originalId": "62e3fdb8dc5ed36267cf3725|1a325498-c2b3-897b-8f79-19dd1a52c725",
         "appliesTo": "CLASS"
       },
       "targets": [{
-        "selector": ".home-accomodation_item-wrapper",
+        "selector": ".home-accommodation_item-wrapper",
         "originalId": "62e3fdb8dc5ed36267cf3725|1a325498-c2b3-897b-8f79-19dd1a52c725",
         "appliesTo": "CLASS"
       }],
@@ -9392,12 +9392,12 @@ Webflow.require('ix2').init({
       },
       "mediaQueries": ["main"],
       "target": {
-        "selector": ".home-accomodation_item-wrapper",
+        "selector": ".home-accommodation_item-wrapper",
         "originalId": "62e3fdb8dc5ed36267cf3725|1a325498-c2b3-897b-8f79-19dd1a52c725",
         "appliesTo": "CLASS"
       },
       "targets": [{
-        "selector": ".home-accomodation_item-wrapper",
+        "selector": ".home-accommodation_item-wrapper",
         "originalId": "62e3fdb8dc5ed36267cf3725|1a325498-c2b3-897b-8f79-19dd1a52c725",
         "appliesTo": "CLASS"
       }],
@@ -10090,7 +10090,7 @@ Webflow.require('ix2').init({
             "duration": 500,
             "target": {
               "useEventTarget": "CHILDREN",
-              "selector": ".home-accomodation_image",
+              "selector": ".home-accommodation_image",
               "selectorGuids": ["27e0efe6-b4bc-a21b-9849-36ba6eece550"]
             },
             "xValue": 1,
@@ -10106,7 +10106,7 @@ Webflow.require('ix2').init({
             "duration": 500,
             "target": {
               "useEventTarget": "CHILDREN",
-              "selector": ".home-accomodation_hover-wrapper",
+              "selector": ".home-accommodation_hover-wrapper",
               "selectorGuids": ["2a4b01b1-be9c-fe7d-1049-760479d6ead9"]
             },
             "value": 0,
@@ -10123,7 +10123,7 @@ Webflow.require('ix2').init({
             "duration": 500,
             "target": {
               "useEventTarget": "CHILDREN",
-              "selector": ".home-accomodation_image",
+              "selector": ".home-accommodation_image",
               "selectorGuids": ["27e0efe6-b4bc-a21b-9849-36ba6eece550"]
             },
             "xValue": 1.1,
@@ -10139,7 +10139,7 @@ Webflow.require('ix2').init({
             "duration": 500,
             "target": {
               "useEventTarget": "CHILDREN",
-              "selector": ".home-accomodation_hover-wrapper",
+              "selector": ".home-accommodation_hover-wrapper",
               "selectorGuids": ["2a4b01b1-be9c-fe7d-1049-760479d6ead9"]
             },
             "value": 1,
@@ -10163,7 +10163,7 @@ Webflow.require('ix2').init({
             "duration": 500,
             "target": {
               "useEventTarget": "CHILDREN",
-              "selector": ".home-accomodation_image",
+              "selector": ".home-accommodation_image",
               "selectorGuids": ["27e0efe6-b4bc-a21b-9849-36ba6eece550"]
             },
             "xValue": 1,
@@ -10179,7 +10179,7 @@ Webflow.require('ix2').init({
             "duration": 500,
             "target": {
               "useEventTarget": "CHILDREN",
-              "selector": ".home-accomodation_hover-wrapper",
+              "selector": ".home-accommodation_hover-wrapper",
               "selectorGuids": ["2a4b01b1-be9c-fe7d-1049-760479d6ead9"]
             },
             "value": 0,
