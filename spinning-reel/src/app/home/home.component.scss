@@ -44,14 +44,6 @@ main:focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
 
-/* Make sure containers never lose their center alignment*/
-.container-medium,
-.container-small,
-.container-large {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
-
 /*Reset selects, buttons, and links styles*/
 .w-input,
 .w-select,
