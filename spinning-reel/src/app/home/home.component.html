@@ -1,22 +1,22 @@
 <div class="page-wrapper">
-    <main class="main-wrapper">
-      <app-header-bar></app-header-bar>
-      <section class="home-section-description-wrapper">
-        <app-description-wrapper></app-description-wrapper>
-      </section>
-      <section class="home-section-accommodation">
-        <!-- <app-accommodation></app-accommodation> -->
-      </section>
-      <section class="home-section-about">
-        <app-about></app-about>
-      </section>
-      <section class="home-section-attractions">
-        <app-attractions></app-attractions>
-      </section>
-      <section class="home-section-testimonials">
-        <app-testimonials></app-testimonials>
-      </section>
-      <app-feature></app-feature>
-      <app-footer></app-footer>
-    </main>
-  </div>
+  <main class="main-wrapper">
+    <app-header-bar></app-header-bar>
+    <section class="home-section-description-wrapper">
+      <app-description-wrapper></app-description-wrapper>
+    </section>
+    <section class="home-section-accommodation">
+      <app-accommodation [isSummary]="false"></app-accommodation>
+    </section>
+    <section class="home-section-about">
+      <app-about></app-about>
+    </section>
+    <section class="home-section-attractions">
+      <app-attractions></app-attractions>
+    </section>
+    <section class="home-section-testimonials">
+      <app-testimonials></app-testimonials>
+    </section>
+    <app-feature></app-feature>
+    <app-footer></app-footer>
+  </main>
+</div>

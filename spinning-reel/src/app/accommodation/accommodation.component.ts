@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-accommodation',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accommodation.component.scss']
 })
 export class AccommodationComponent implements OnInit {
+  @Input()
+  isSummary: boolean = true;
 
   constructor() { }
 

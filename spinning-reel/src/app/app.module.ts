@@ -14,6 +14,7 @@ import { AccommodationPageComponent } from './accommodation/accommodation-page/a
 import { BookingComponent } from './booking/booking.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { AccommodationGridComponent } from './accommodation/accommodation-grid/accommodation-grid.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomeComponent } from './home/home.component';
     AccommodationPageComponent,
     BookingComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    AccommodationGridComponent
   ],
   imports: [
     BrowserModule,
